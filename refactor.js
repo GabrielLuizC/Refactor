@@ -2,28 +2,24 @@ function returnRandomNumber() {
   return Math.random();
 }
 
-function sumToRandomNumber(num) {
+function sumNumber(num) {
   return `Seu número é ${Math.round(returnRandomNumber() * 100) + num}!`;
 }
 
-function sumToRandomNumber(num) {
-  return `Seu número é ${Math.round(returnRandomNumber() * 100) + num}!`;
-}
-
-function subtractRandomNumber(num) {
+function subtractNumber(num) {
   return `Seu número é ${Math.round(returnRandomNumber() * 100) - num}!`;
 }
 
-function multiplyToRandomNumber(num) {
+function multiplyNumber(num) {
   return `Seu número é ${Math.round(returnRandomNumber() * 100) * num}!`;
 }
 
-function divideRandomNumber(num) {
+function divideNumber(num) {
   return `Seu número é ${Math.round(returnRandomNumber() * 100) / num}!`;
 }
 
 console.log(returnRandomNumber())
-console.log(sumToRandomNumber(20))
-console.log(subtractRandomNumber(20))
-console.log(multiplyToRandomNumber(20))
-console.log(divideRandomNumber(20))
+console.log(sumNumber(20))
+console.log(subtractNumber(20))
+console.log(multiplyNumber(20))
+console.log(divideNumber(20))
